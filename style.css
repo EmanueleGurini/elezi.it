@@ -1,0 +1,29 @@
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.primary-color {color : #6886C5;}
+.secondary-color {color: #F9F9F9 !important;}
+
+.bg-primary-color {background-color : #6886C5 !important;}
+.bg-secondary-color {background-color: #F9F9F9 !important;}
+
+h1 {font-size : 36px; font-weight: 700;}
+h2 {font-size : 36px;}
+p {font-size : 18px;}
+
+
+.search__inputBox {
+	border: 1px solid red;
+	border-radius: 35px;
+}
+
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
