@@ -1,7 +1,10 @@
 
-body {
-	font-family: 'Montserrat', sans-serif;
-}
+
+
+/*-------------------------------------------------------------
+			GLOBAL
+-------------------------------------------------------------*/
+body {font-family: 'Montserrat', sans-serif;}
 
 .primary-color {color : #6886C5;}
 .secondary-color {color: #F9F9F9 !important;}
@@ -13,12 +16,25 @@ h1 {font-size : 36px; font-weight: 700;}
 h2 {font-size : 36px;}
 p {font-size : 18px;}
 
+/*-------------------------------------------------------------
+			HEADER
+-------------------------------------------------------------*/
+/*-------------------------------------------------------------
+			SECTION SEARCH
+-------------------------------------------------------------*/
+.searchWrapper {height: 680px;}
+.search {padding-top: 130px;}
+.searchBar__components {background-color: #F9F9F9;border-radius: 35px;margin: 0 auto;width: 580px;}
+.searchBar__form {display: flex;height: 45px;margin:35px 0;justify-content: space-between;}
+.searchBar__form > input {background-color: transparent;border: none;color: #6886C5;font-weight: 500;width: 95% ;}
+.searchBar__form > input:focus {outline: none;}
+.searchBar__form > button {background-color: transparent;border: none;}
+.searchBar__btn > span > img {height: 24px;}
 
-.search__inputBox {
-	border: 1px solid red;
-	border-radius: 35px;
-}
-
+@media (max-width: 767px) {
+	.search {padding-top: 85px;}
+      }
+      
 
 
 *,
