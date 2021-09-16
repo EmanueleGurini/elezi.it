@@ -1,10 +1,32 @@
+/*
+WebSite Name: 	Elezi.it
+Version:     	1.0
+Author:     	Emanuele Gurini
+Author URI:    	http://www.emanuelegurini.it
+Site:         	http://www.emanuelegurini.it
+Tags:        	responsive-layout,custom-menu, featured-images, fluid-layout, full-width-template, left-sidebar, right-sidebar, theme-options
+License:    	Elezi.it | Appsolute
+*/
 
+/* Style Tree 
 
+    1.  Base Styles
+    2.  Menu
+    3.  Search
+    4.  
+    5.  
+    6.  
+    7.  
+    8.	
+    9.  
+        
+*/
 
-/*-------------------------------------------------------------
-			GLOBAL
--------------------------------------------------------------*/
 body {font-family: 'Montserrat', sans-serif;}
+
+/* ------------------------------------------------------------------------- *
+ *  1. Base Styles
+/* ------------------------------------------------------------------------- */
 
 .primary-color {color : #6886C5;}
 .secondary-color {color: #F9F9F9 !important;}
@@ -14,16 +36,21 @@ body {font-family: 'Montserrat', sans-serif;}
 
 h1 {font-size : 36px; font-weight: 700;}
 h2 {font-size : 36px;}
+.h2-regular {font-weight: 400;}
+.h2-light {font-weight: 300;}
 p {font-size : 18px;}
 
-/*-------------------------------------------------------------
-			SECTION HEADER
--------------------------------------------------------------*/
+/* -------------------------------------------------------------------------- *
+ *  2. Menu
+/* ------------------------------------------------------------------------- */
+
 .navbar__bgr-menu {border: none;}
 button:focus {box-shadow: none !important;outline: none !important;}
-/*-------------------------------------------------------------
-			SECTION SEARCH
--------------------------------------------------------------*/
+
+/* -------------------------------------------------------------------------- *
+ *  3. Search
+/* ------------------------------------------------------------------------- */
+
 .searchWrapper {height: 680px;}
 .search {padding-top: 130px;}
 .searchBar__components {background-color: #F9F9F9;border-radius: 35px;margin: 0 auto;max-width: 580px;}
@@ -43,14 +70,37 @@ button:focus {box-shadow: none !important;outline: none !important;}
 	}
       }
 
-/*-------------------------------------------------------------
-			SECTION FOOTER
--------------------------------------------------------------*/
+/* -------------------------------------------------------------------------- *
+ *  n. 404
+ /* ------------------------------------------------------------------------- */
+/* Message */
+
+.page-404__message {
+	padding-bottom: 150px;
+	padding-top: 150px;
+}
+
+@media (max-width: 767px) {
+	.page-404__message {
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+      }
+
+
+
+/* -------------------------------------------------------------------------- *
+ *  n. Footer
+ /* ------------------------------------------------------------------------- */
       
 @media (max-width: 767px) {
 	.footer-container {display: flex;flex-direction: column;}
 	.footer-container > span {font-size: 10px !important;padding-top: 8px;}
       }
+
+
+
+
 
 *,
 *::after,
